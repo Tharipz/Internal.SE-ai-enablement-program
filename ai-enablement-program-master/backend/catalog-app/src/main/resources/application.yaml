@@ -1,0 +1,22 @@
+quarkus:
+  application:
+    name: netcracker-telekom-catalog-demo
+  http:
+    port: 8080
+    cors:
+      enabled: true
+      origins: http://localhost:3000
+      methods: GET,OPTIONS
+      headers: accept,authorization,content-type,x-requested-with
+  swagger-ui:
+    always-include: true
+    path: /q/swagger-ui
+  smallrye-openapi:
+    path: /q/openapi
+  micrometer:
+    export:
+      prometheus:
+        path: /q/metrics
+
+catalog:
+  data-path: classpath:catalog/generated/catalog.json

@@ -1,0 +1,23 @@
+{
+  "catalog": "Catalog",
+  "metadata": "Catalog metadata",
+  "products": "Products",
+  "search": "Search products, codes, descriptions",
+  "category": "Category",
+  "status": "Status",
+  "type": "Type",
+  "priceFrom": "Price from",
+  "priceTo": "Price to",
+  "reset": "Reset",
+  "open": "Open",
+  "source": "Source",
+  "parameters": "Parameters",
+  "conditions": "Conditions",
+  "dependencies": "Dependencies",
+  "pricing": "Pricing",
+  "validation": "Validation",
+  "notFound": "Product not found",
+  "backendUnavailable": "Backend unavailable",
+  "empty": "No products match current filters",
+  "back": "Back to catalog"
+}

@@ -1,0 +1,1581 @@
+{
+  "metadata" : {
+    "operatorName" : "Netcracker Telekom",
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "productCount" : 18,
+    "warningCount" : 4,
+    "sourceSheets" : [ "Equipment Offerings", "Non-serialized Equipment", "Other Offerings" ],
+    "availableFilters" : {
+      "category" : [ "Accessories", "Fiber", "Postpaid", "Routers", "Services", "SmartWatches", "Smartphones", "Tablets", "Technical Offerings" ],
+      "currency" : [ "USD" ],
+      "status" : [ "ACTIVE", "EXPIRED" ],
+      "type" : [ "ACCESSORY", "FIBER_PLAN", "POSTPAID_PLAN", "ROUTER", "SERVICE", "SMARTPHONE", "SMARTWATCH", "TABLET", "TECHNICAL" ]
+    }
+  },
+  "products" : [ {
+    "id" : "100001",
+    "code" : "IPH14-MID-128",
+    "name" : "iPhone 14 Midnight 128GB",
+    "description" : "Apple smartphone offer with 128GB storage and 5G connectivity.",
+    "category" : "Smartphones",
+    "type" : "SMARTPHONE",
+    "status" : "ACTIVE",
+    "price" : 799,
+    "currency" : "USD",
+    "period" : "one-time",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200000",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : 799,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    }, {
+      "id" : "200001",
+      "component" : "Activation Fee",
+      "saleType" : "INSTALLMENT",
+      "value" : 35,
+      "currency" : "USD",
+      "defaultPrice" : false,
+      "basePrice" : false,
+      "period" : "24 Months",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    }, {
+      "id" : "200002",
+      "component" : "Activation Fee",
+      "saleType" : "SUBSIDY",
+      "value" : 679,
+      "currency" : "USD",
+      "defaultPrice" : false,
+      "basePrice" : false,
+      "period" : "24 Months",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "MPUD3AHA" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Smartphone" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Smartphone Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Courier", "Store Pickup" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Subsidy Amount",
+      "values" : [ "120" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Equipment Subsidy Commitment Period",
+      "values" : [ "24" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Sale Type",
+      "values" : [ "Cash Sales", "Installments", "Subsidy" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Contract Period",
+      "values" : [ "12", "24" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ {
+      "type" : "INCLUDE",
+      "targetId" : "120002",
+      "targetName" : "Premium Device Care",
+      "min" : 0,
+      "max" : 1,
+      "sourceSheet" : "Relations Overrides",
+      "sourceRow" : 8
+    } ],
+    "sourceSheet" : "Equipment Offerings",
+    "sourceRow" : 3,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "100002",
+    "code" : "SMS25-NV-256",
+    "name" : "Samsung S25 256GB Navy",
+    "description" : "Samsung Galaxy S25 smartphone with 256GB storage.",
+    "category" : "Smartphones",
+    "type" : "SMARTPHONE",
+    "status" : "ACTIVE",
+    "price" : 899,
+    "currency" : "USD",
+    "period" : "one-time",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200003",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : 899,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    }, {
+      "id" : "200004",
+      "component" : "Activation Fee",
+      "saleType" : "INSTALLMENT",
+      "value" : 39,
+      "currency" : "USD",
+      "defaultPrice" : false,
+      "basePrice" : false,
+      "period" : "24 Months",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    }, {
+      "id" : "200005",
+      "component" : "Activation Fee",
+      "saleType" : "SUBSIDY",
+      "value" : 749,
+      "currency" : "USD",
+      "defaultPrice" : false,
+      "basePrice" : false,
+      "period" : "24 Months",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "SMS25NV256" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Smartphone" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Smartphone Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Courier", "Store Pickup" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Subsidy Amount",
+      "values" : [ "150" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Equipment Subsidy Commitment Period",
+      "values" : [ "24" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Sale Type",
+      "values" : [ "Cash Sales", "Installments", "Subsidy" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Contract Period",
+      "values" : [ "12", "24" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Equipment Offerings",
+    "sourceRow" : 4,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "100003",
+    "code" : "IPAD-PRO-129-5G-128",
+    "name" : "iPad Pro 12.9 5G 128GB Space Grey",
+    "description" : "Large-screen iPad Pro with cellular connectivity for mobile data plans.",
+    "category" : "Tablets",
+    "type" : "TABLET",
+    "status" : "ACTIVE",
+    "price" : 1099,
+    "currency" : "USD",
+    "period" : "one-time",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200006",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : 1099,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    }, {
+      "id" : "200007",
+      "component" : "Activation Fee",
+      "saleType" : "INSTALLMENT",
+      "value" : 49,
+      "currency" : "USD",
+      "defaultPrice" : false,
+      "basePrice" : false,
+      "period" : "24 Months",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    }, {
+      "id" : "200008",
+      "component" : "Activation Fee",
+      "saleType" : "SUBSIDY",
+      "value" : 999,
+      "currency" : "USD",
+      "defaultPrice" : false,
+      "basePrice" : false,
+      "period" : "24 Months",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "MHR43ABA" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Tablet" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "SIM Tablet Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Courier" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Subsidy Amount",
+      "values" : [ "80" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Equipment Subsidy Commitment Period",
+      "values" : [ "12" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Sale Type",
+      "values" : [ "Cash Sales", "Installments", "Subsidy" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Contract Period",
+      "values" : [ "12", "24" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Equipment Offerings",
+    "sourceRow" : 5,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "100004",
+    "code" : "AW-S7-45-CEL",
+    "name" : "Apple Watch S7 45mm Cellular",
+    "description" : "Cellular smartwatch add-on for mobile subscribers.",
+    "category" : "SmartWatches",
+    "type" : "SMARTWATCH",
+    "status" : "ACTIVE",
+    "price" : 399,
+    "currency" : "USD",
+    "period" : "one-time",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200009",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : 399,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    }, {
+      "id" : "200010",
+      "component" : "Activation Fee",
+      "saleType" : "INSTALLMENT",
+      "value" : 18,
+      "currency" : "USD",
+      "defaultPrice" : false,
+      "basePrice" : false,
+      "period" : "24 Months",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    }, {
+      "id" : "200011",
+      "component" : "Activation Fee",
+      "saleType" : "SUBSIDY",
+      "value" : 349,
+      "currency" : "USD",
+      "defaultPrice" : false,
+      "basePrice" : false,
+      "period" : "24 Months",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "MKL23AEA" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "SmartWatch" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "SIM SmartWatch Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Courier", "Store Pickup" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Subsidy Amount",
+      "values" : [ "40" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Equipment Subsidy Commitment Period",
+      "values" : [ "12" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Sale Type",
+      "values" : [ "Cash Sales", "Installments", "Subsidy" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Contract Period",
+      "values" : [ "12", "24" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Equipment Offerings",
+    "sourceRow" : 6,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "100005",
+    "code" : "HUAWEI-5G-CPE5-BLK",
+    "name" : "Huawei 5G CPE 5 Black",
+    "description" : "5G home router for fixed wireless access packages.",
+    "category" : "Routers",
+    "type" : "ROUTER",
+    "status" : "ACTIVE",
+    "price" : 299,
+    "currency" : "USD",
+    "period" : "one-time",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200012",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : 299,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    }, {
+      "id" : "200013",
+      "component" : "Activation Fee",
+      "saleType" : "INSTALLMENT",
+      "value" : 15,
+      "currency" : "USD",
+      "defaultPrice" : false,
+      "basePrice" : false,
+      "period" : "24 Months",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "HUAWEI5GCPE5BK" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Router&WiFi" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "WiFi Router Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Courier" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Subsidy Amount",
+      "values" : [ "0" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Equipment Subsidy Commitment Period",
+      "values" : [ "0" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Sale Type",
+      "values" : [ "Cash Sales", "Installments", "Subsidy" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Contract Period",
+      "values" : [ "12", "24" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Equipment Offerings",
+    "sourceRow" : 7,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "100006",
+    "code" : "IPH11-WHT-64",
+    "name" : "iPhone 11 64GB White",
+    "description" : "Expired device entry kept for status and filter training.",
+    "category" : "Smartphones",
+    "type" : "SMARTPHONE",
+    "status" : "EXPIRED",
+    "price" : 199,
+    "currency" : "USD",
+    "period" : "one-time",
+    "availableFrom" : "2023-01-01",
+    "availableTo" : "2024-12-31",
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200014",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : 199,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "MWLU2AHA" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Smartphone" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Smartphone Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Store Pickup" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Subsidy Amount",
+      "values" : [ "0" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Equipment Subsidy Commitment Period",
+      "values" : [ "0" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Sale Type",
+      "values" : [ "Cash Sales", "Installments", "Subsidy" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Contract Period",
+      "values" : [ "12", "24" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ "Premium care is not available for legacy devices." ],
+    "dependencies" : [ {
+      "type" : "EXCLUDE",
+      "targetId" : "120002",
+      "targetName" : "Premium Device Care",
+      "min" : 0,
+      "max" : 0,
+      "sourceSheet" : "Relations Overrides",
+      "sourceRow" : 9
+    }, {
+      "type" : "CONFLICTS_WITH",
+      "targetId" : "120002",
+      "targetName" : "Premium Device Care",
+      "min" : null,
+      "max" : null,
+      "sourceSheet" : "Flat Rules",
+      "sourceRow" : 3
+    } ],
+    "sourceSheet" : "Equipment Offerings",
+    "sourceRow" : 8,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "100007",
+    "code" : "SMS25-MN-128",
+    "name" : "Samsung S25 128GB Mint",
+    "description" : "Intentionally missing price and product family for validation training.",
+    "category" : "Smartphones",
+    "type" : "SMARTPHONE",
+    "status" : "ACTIVE",
+    "price" : null,
+    "currency" : null,
+    "period" : null,
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "SMS25MN128" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Smartphone Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Courier" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Sale Type",
+      "values" : [ "Cash Sales", "Installments", "Subsidy" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Contract Period",
+      "values" : [ "12", "24" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Equipment Offerings",
+    "sourceRow" : 9,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ {
+      "severity" : "WARNING",
+      "code" : "PRODUCT_FAMILY_MISSING",
+      "message" : "Product family is missing",
+      "sourceSheet" : "Equipment Offerings",
+      "sourceRow" : 9,
+      "field" : "Product Family"
+    }, {
+      "severity" : "WARNING",
+      "code" : "PRICE_MISSING",
+      "message" : "Product does not have a non-negative price option",
+      "sourceSheet" : "Equipment Offerings",
+      "sourceRow" : 9,
+      "field" : "Price List Items"
+    } ]
+  }, {
+    "id" : "110001",
+    "code" : "IPH15-PRO-CL-CASE",
+    "name" : "iPhone 15 Pro Clear Case",
+    "description" : "Clear protective case for iPhone 15 Pro.",
+    "category" : "Accessories",
+    "type" : "ACCESSORY",
+    "status" : "ACTIVE",
+    "price" : 39,
+    "currency" : "USD",
+    "period" : "one-time",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200015",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : 39,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "MT223ZMA" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Accessory" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Accessory Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Courier", "Store Pickup" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Non-serialized Equipment",
+    "sourceRow" : 3,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "110002",
+    "code" : "IPH16-PRO-CL-CASE",
+    "name" : "iPhone 16 Pro Clear Case",
+    "description" : "Clear protective case for iPhone 16 Pro.",
+    "category" : "Accessories",
+    "type" : "ACCESSORY",
+    "status" : "ACTIVE",
+    "price" : 49,
+    "currency" : "USD",
+    "period" : "one-time",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200016",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : 49,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "MA7E4ZMA" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Accessory" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Accessory Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Courier" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Non-serialized Equipment",
+    "sourceRow" : 4,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "120001",
+    "code" : "NT-ESIM-ACT",
+    "name" : "eSIM Activation",
+    "description" : "Digital eSIM activation service.",
+    "category" : "Services",
+    "type" : "SERVICE",
+    "status" : "ACTIVE",
+    "price" : 0,
+    "currency" : "USD",
+    "period" : "one-time",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200017",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : 0,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "NT-ESIM-ACT" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Service" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Digital Service Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "eSIM" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Other Offerings",
+    "sourceRow" : 3,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "120002",
+    "code" : "NT-DEVICE-CARE",
+    "name" : "Premium Device Care",
+    "description" : "Optional monthly care service for selected devices.",
+    "category" : "Services",
+    "type" : "SERVICE",
+    "status" : "ACTIVE",
+    "price" : 9,
+    "currency" : "USD",
+    "period" : "one-time",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200018",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : 9,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "NT-DEVICE-CARE" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Service" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Digital Service Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Digital" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Other Offerings",
+    "sourceRow" : 4,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "130001",
+    "code" : "POSTPAID-129",
+    "name" : "Postpaid 129",
+    "description" : "Balanced postpaid voice and data plan for everyday mobile use.",
+    "category" : "Postpaid",
+    "type" : "POSTPAID_PLAN",
+    "status" : "ACTIVE",
+    "price" : 129,
+    "currency" : "USD",
+    "period" : "Monthly",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200019",
+      "component" : "Monthly Fee",
+      "saleType" : "POSTPAID",
+      "value" : 129,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "Monthly",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "POSTPAID-129" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Postpaid Plan" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Postpaid Plan Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "SIM", "eSIM" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Data Allowance",
+      "values" : [ "50 GB" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Voice Minutes",
+      "values" : [ "1500 local minutes" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Contract Period",
+      "values" : [ "Monthly", "12 Months" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "SIM Type",
+      "values" : [ "SIM", "eSIM" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Other Offerings",
+    "sourceRow" : 5,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "130002",
+    "code" : "POSTPAID-199",
+    "name" : "Postpaid 199",
+    "description" : "Higher data allowance with social and roaming add-ons.",
+    "category" : "Postpaid",
+    "type" : "POSTPAID_PLAN",
+    "status" : "ACTIVE",
+    "price" : 199,
+    "currency" : "USD",
+    "period" : "Monthly",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200020",
+      "component" : "Monthly Fee",
+      "saleType" : "POSTPAID",
+      "value" : 199,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "Monthly",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "POSTPAID-199" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Postpaid Plan" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Postpaid Plan Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "SIM", "eSIM" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Data Allowance",
+      "values" : [ "150 GB" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Voice Minutes",
+      "values" : [ "Unlimited local minutes" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Contract Period",
+      "values" : [ "Monthly", "12 Months" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Roaming",
+      "values" : [ "2 GB GCC roaming" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Other Offerings",
+    "sourceRow" : 6,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "130003",
+    "code" : "POSTPAID-299",
+    "name" : "Postpaid Unlimited 299",
+    "description" : "Unlimited mobile plan for heavy data users and frequent travelers.",
+    "category" : "Postpaid",
+    "type" : "POSTPAID_PLAN",
+    "status" : "ACTIVE",
+    "price" : 299,
+    "currency" : "USD",
+    "period" : "Monthly",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200021",
+      "component" : "Monthly Fee",
+      "saleType" : "POSTPAID",
+      "value" : 299,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "Monthly",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "POSTPAID-299" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Postpaid Plan" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Postpaid Plan Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "SIM", "eSIM" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Data Allowance",
+      "values" : [ "Unlimited" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Voice Minutes",
+      "values" : [ "Unlimited local minutes" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Contract Period",
+      "values" : [ "Monthly", "12 Months" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Roaming",
+      "values" : [ "10 GB roaming" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ "Unlimited postpaid customers can add discounted device care." ],
+    "dependencies" : [ {
+      "type" : "INCLUDE",
+      "targetId" : "120002",
+      "targetName" : "Premium Device Care",
+      "min" : null,
+      "max" : null,
+      "sourceSheet" : "Flat Rules",
+      "sourceRow" : 5
+    } ],
+    "sourceSheet" : "Other Offerings",
+    "sourceRow" : 7,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "140001",
+    "code" : "FIBER-BASIC",
+    "name" : "Fiber Home Basic",
+    "description" : "Entry fiber plan with free router for covered homes.",
+    "category" : "Fiber",
+    "type" : "FIBER_PLAN",
+    "status" : "ACTIVE",
+    "price" : 49,
+    "currency" : "USD",
+    "period" : "Monthly",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200022",
+      "component" : "Monthly Fee",
+      "saleType" : "POSTPAID",
+      "value" : 49,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "Monthly",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "FIBER-BASIC" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Fiber Plan" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Fiber Plan Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Engineer Installation" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Internet",
+      "values" : [ "Unlimited" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Download Speed",
+      "values" : [ "Up to 100 Mbps" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Upload Speed",
+      "values" : [ "Up to 25 Mbps" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Included Hardware",
+      "values" : [ "Free router" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Other Offerings",
+    "sourceRow" : 8,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "140002",
+    "code" : "FIBER-PLUS",
+    "name" : "Fiber Home Plus",
+    "description" : "Mid-tier fiber plan with faster download speed and installation included.",
+    "category" : "Fiber",
+    "type" : "FIBER_PLAN",
+    "status" : "ACTIVE",
+    "price" : 69,
+    "currency" : "USD",
+    "period" : "Monthly",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200023",
+      "component" : "Monthly Fee",
+      "saleType" : "POSTPAID",
+      "value" : 69,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "Monthly",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "FIBER-PLUS" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Fiber Plan" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Fiber Plan Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Engineer Installation" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Internet",
+      "values" : [ "Unlimited" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Download Speed",
+      "values" : [ "Up to 300 Mbps" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Upload Speed",
+      "values" : [ "Up to 100 Mbps" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Included Hardware",
+      "values" : [ "Router and installation" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ "Fiber Plus orders should include a home router." ],
+    "dependencies" : [ {
+      "type" : "INCLUDE",
+      "targetId" : "100005",
+      "targetName" : "Huawei 5G CPE 5 Black",
+      "min" : 1,
+      "max" : 1,
+      "sourceSheet" : "Relations Overrides",
+      "sourceRow" : 10
+    }, {
+      "type" : "REQUIRES",
+      "targetId" : "100005",
+      "targetName" : "Huawei 5G CPE 5 Black",
+      "min" : null,
+      "max" : null,
+      "sourceSheet" : "Flat Rules",
+      "sourceRow" : 4
+    } ],
+    "sourceSheet" : "Other Offerings",
+    "sourceRow" : 9,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "140003",
+    "code" : "FIBER-PREMIUM",
+    "name" : "Fiber Home Premium",
+    "description" : "Premium fiber plan for households with high bandwidth needs.",
+    "category" : "Fiber",
+    "type" : "FIBER_PLAN",
+    "status" : "ACTIVE",
+    "price" : 99,
+    "currency" : "USD",
+    "period" : "Monthly",
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : false,
+    "pricingOptions" : [ {
+      "id" : "200024",
+      "component" : "Monthly Fee",
+      "saleType" : "POSTPAID",
+      "value" : 99,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "Monthly",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "FIBER-PREMIUM" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Fiber Plan" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Fiber Plan Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Engineer Installation" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Internet",
+      "values" : [ "Unlimited" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Download Speed",
+      "values" : [ "Up to 500 Mbps" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Upload Speed",
+      "values" : [ "Up to 200 Mbps" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    }, {
+      "name" : "Included Hardware",
+      "values" : [ "Router, installation and Wi-Fi extender" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ {
+      "type" : "INCLUDE",
+      "targetId" : "100005",
+      "targetName" : "Huawei 5G CPE 5 Black",
+      "min" : 1,
+      "max" : 1,
+      "sourceSheet" : "Relations Overrides",
+      "sourceRow" : 11
+    } ],
+    "sourceSheet" : "Other Offerings",
+    "sourceRow" : 10,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ ]
+  }, {
+    "id" : "120003",
+    "code" : "NT-REFUND-ADJ",
+    "name" : "Refund Adjustment",
+    "description" : "Technical refund adjustment, hidden from the customer purchase journey by default.",
+    "category" : "Technical Offerings",
+    "type" : "TECHNICAL",
+    "status" : "ACTIVE",
+    "price" : null,
+    "currency" : null,
+    "period" : null,
+    "availableFrom" : "2025-01-01",
+    "availableTo" : null,
+    "technical" : true,
+    "pricingOptions" : [ {
+      "id" : "200025",
+      "component" : "Activation Fee",
+      "saleType" : "CASH",
+      "value" : -1,
+      "currency" : "USD",
+      "defaultPrice" : true,
+      "basePrice" : true,
+      "period" : "one-time",
+      "validFrom" : "2025-01-01",
+      "validTo" : null
+    } ],
+    "parameters" : [ {
+      "name" : "SKU ID",
+      "values" : [ "NT-REFUND-ADJ" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Product Family",
+      "values" : [ "Technical" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Offering Template",
+      "values" : [ "Technical Service Template" ],
+      "visible" : false,
+      "mandatory" : false,
+      "modifiable" : false
+    }, {
+      "name" : "Delivery Type",
+      "values" : [ "Internal" ],
+      "visible" : true,
+      "mandatory" : false,
+      "modifiable" : true
+    } ],
+    "conditions" : [ ],
+    "dependencies" : [ ],
+    "sourceSheet" : "Other Offerings",
+    "sourceRow" : 11,
+    "sourceFile" : "mobile-operator-catalog.xlsx",
+    "importedAt" : "2026-04-29T15:53:39Z",
+    "validationIssues" : [ {
+      "severity" : "WARNING",
+      "code" : "NEGATIVE_PRICE",
+      "message" : "Negative price is usually a technical refund/reversal entry",
+      "sourceSheet" : "Price List Items",
+      "sourceRow" : 28,
+      "field" : "Value"
+    }, {
+      "severity" : "WARNING",
+      "code" : "PRICE_MISSING",
+      "message" : "Product does not have a non-negative price option",
+      "sourceSheet" : "Other Offerings",
+      "sourceRow" : 11,
+      "field" : "Price List Items"
+    } ]
+  } ],
+  "categories" : [ {
+    "id" : "accessories",
+    "name" : "Accessories",
+    "parent" : null,
+    "productCount" : 2
+  }, {
+    "id" : "fiber",
+    "name" : "Fiber",
+    "parent" : null,
+    "productCount" : 3
+  }, {
+    "id" : "postpaid",
+    "name" : "Postpaid",
+    "parent" : null,
+    "productCount" : 3
+  }, {
+    "id" : "routers",
+    "name" : "Routers",
+    "parent" : null,
+    "productCount" : 1
+  }, {
+    "id" : "services",
+    "name" : "Services",
+    "parent" : null,
+    "productCount" : 2
+  }, {
+    "id" : "smartwatches",
+    "name" : "SmartWatches",
+    "parent" : null,
+    "productCount" : 1
+  }, {
+    "id" : "smartphones",
+    "name" : "Smartphones",
+    "parent" : null,
+    "productCount" : 4
+  }, {
+    "id" : "tablets",
+    "name" : "Tablets",
+    "parent" : null,
+    "productCount" : 1
+  }, {
+    "id" : "technical-offerings",
+    "name" : "Technical Offerings",
+    "parent" : null,
+    "productCount" : 1
+  } ],
+  "enums" : {
+    "productTypes" : [ "SMARTPHONE", "TABLET", "SMARTWATCH", "ROUTER", "ACCESSORY", "SERVICE", "POSTPAID_PLAN", "FIBER_PLAN", "TECHNICAL", "DEVICE", "OTHER" ],
+    "statuses" : [ "ACTIVE", "FUTURE", "EXPIRED", "ELIMINATED", "ARCHIVED", "INVALID" ],
+    "saleTypes" : [ "CASH", "INSTALLMENT", "SUBSIDY", "POSTPAID", "OTHER" ],
+    "dependencyTypes" : [ "INCLUDE", "EXCLUDE", "REQUIRES", "CONFLICTS_WITH" ],
+    "currencies" : [ "USD" ]
+  },
+  "warnings" : [ ]
+}

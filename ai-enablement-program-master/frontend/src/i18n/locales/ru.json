@@ -1,0 +1,23 @@
+{
+  "catalog": "Каталог",
+  "metadata": "Метаданные каталога",
+  "products": "Продукты",
+  "search": "Поиск по продуктам, кодам, описанию",
+  "category": "Категория",
+  "status": "Статус",
+  "type": "Тип",
+  "priceFrom": "Цена от",
+  "priceTo": "Цена до",
+  "reset": "Сбросить",
+  "open": "Открыть",
+  "source": "Источник",
+  "parameters": "Параметры",
+  "conditions": "Условия",
+  "dependencies": "Зависимости",
+  "pricing": "Цены",
+  "validation": "Проверка данных",
+  "notFound": "Продукт не найден",
+  "backendUnavailable": "Backend недоступен",
+  "empty": "Нет продуктов по текущим фильтрам",
+  "back": "Назад к каталогу"
+}
